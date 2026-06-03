@@ -1,6 +1,6 @@
 import pickle
 
-path = "datasets/MOSI/Processed/aligned_50.pkl"
+path = "datasets/MOSEI/Processed/aligned_50.pkl"
 
 with open(path, "rb") as f:
     data = pickle.load(f)
